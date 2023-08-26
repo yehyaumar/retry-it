@@ -1,6 +1,6 @@
-# retry-it
+# retry-utils
 
-retry-it is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.
+retry-utils is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.
 
 ## retry()
 
@@ -13,7 +13,7 @@ Delay execution flow for sometime in milliseconds
 ## Usage
 
 ```typescript
-import { retry, delay } from "retry-it";
+import { retry, delay } from "retry-utils";
 
 // Delay execution flow for 5 seconds
 await delay(5000);

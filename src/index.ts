@@ -1,2 +1,2 @@
 export * from "./delay";
-export * from "./retry-it";
+export * from "./retry-utils";

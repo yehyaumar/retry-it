@@ -1,7 +1,7 @@
 {
-  "name": "retry-it",
+  "name": "retry-utils",
   "version": "0.0.1",
-  "description": "retry-it is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.",
+  "description": "retry-utils is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.",
   "main": "lib/index.js",
   "author": "YehyaUmar <yehyaumar@gmail.com>",
   "repository": "",
