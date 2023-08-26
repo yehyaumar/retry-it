@@ -1,0 +1,37 @@
+{
+  "name": "retry-it",
+  "version": "0.0.1",
+  "description": "retry-it is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.",
+  "main": "lib/index.js",
+  "author": "YehyaUmar <yehyaumar@gmail.com>",
+  "repository": "",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "test": "",
+    "test-coverage": ""
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "retry",
+    "repeat",
+    "replay",
+    "retry-async",
+    "delay",
+    "node"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.d.ts",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  }
+}
