@@ -5,6 +5,12 @@ export interface RetryOptions {
   delayMs?: number;
 }
 
+/**
+ * Retry any async function until it returns a meaningful value till number of attempts
+ * @param {function} op - async function
+ * @param {RetryOptions} options retry options
+ * @returns Promise<result | undefined>
+ */
 export async function retry<T>(
   op: () => Promise<T>,
   options: RetryOptions = {}
