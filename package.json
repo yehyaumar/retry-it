@@ -1,10 +1,11 @@
 {
   "name": "retry-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "retry-utils is a lightweight and intuitive module that provides a simple yet powerful retry mechanism for your applications.",
   "main": "lib/index.js",
   "author": "YehyaUmar <yehyaumar@gmail.com>",
-  "repository": "",
+  "repository": "https://github.com/yehyaumar/retry-utils",
+  "website": "https://github.com/yehyaumar/retry-utils",
   "scripts": {
     "prebuild": "rimraf lib",
     "watch": "tsc --watch",
